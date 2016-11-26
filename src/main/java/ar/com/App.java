@@ -20,6 +20,7 @@ public class App {
 		session.save(developer);
 		transaction.commit();
 		session.close();
-		System.out.println("completed");
+		System.out.println("completed process");
+		System.out.println("done");
 	}
 }
